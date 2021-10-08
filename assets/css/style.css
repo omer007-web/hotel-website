@@ -258,7 +258,8 @@ body{
 
 .hotel-booking{
     display: grid;
-    grid-template-columns: 72.8rem max-content;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: max-content 200px;
     justify-content: space-between;
     gap: 2.7rem;
     margin-top: 2.6rem;
@@ -270,7 +271,8 @@ body{
     overflow: hidden;
 }
 .hotel-image img{
-    width: 100%;
+    /* width: 100%; */
+    height: 100%;
     
 }
 .booking-card{
@@ -350,7 +352,8 @@ body{
     height: 21.3rem;
 }
 .map img{
-  width: 130%;
+  width: 100%;
+  
 }
 
 .hotel-detail-info{
@@ -849,6 +852,10 @@ textarea{
         padding:0 50px;
     }
     .booking-card{
+        width: 100%;
+        height: max-content;
+    }
+    .hotel-image img{
         width: 100%;
         height: max-content;
     }
